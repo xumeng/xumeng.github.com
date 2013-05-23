@@ -9,14 +9,13 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Ğì²»ÃÍ
-tagline: Ğì²»ÃÍµÄ³ÌĞòÖ®µÀ
+title : å¾ä¸çŒ›
+tagline: å¾ä¸çŒ›çš„ç¨‹åºä¹‹é“
 author :
   name : Amon
   email : gosu@foxmail.com
   github : xumeng
-  twitter : xumeng
-  feedburner : feedname
+  facebook : hsumeng
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

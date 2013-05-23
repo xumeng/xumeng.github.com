@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Ðì²»ÃÍµÄ³ÌÐòÖ®µÀ
-tagline: ×ÓÔ»£º¾ý×Ó»Ý¶ø²»·Ñ£¬ÀÍ¶ø²»Ô¹£¬Óû¶ø²»Ì°£¬Ì©¶ø²»½¾£¬Íþ¶ø²»ÃÍ£¡
+title: å¾ä¸çŒ›çš„ç¨‹åºä¹‹é“
+tagline: å­æ›°ï¼šå›å­æƒ è€Œä¸è´¹ï¼ŒåŠ³è€Œä¸æ€¨ï¼Œæ¬²è€Œä¸è´ªï¼Œæ³°è€Œä¸éª„ï¼Œå¨è€Œä¸çŒ›ï¼
 ---
 {% include JB/setup %}
 
@@ -11,8 +11,3 @@ tagline: ×ÓÔ»£º¾ý×Ó»Ý¶ø²»·Ñ£¬ÀÍ¶ø²»Ô¹£¬Óû¶ø²»Ì°£¬Ì©¶ø²»½¾£¬Íþ¶ø²»ÃÍ£¡
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-
-
-
-
