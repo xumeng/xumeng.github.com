@@ -12,5 +12,4 @@
 {% when "custom" %}
   {% include custom/comments %}
 {% endcase %}
-
 {% endif %}

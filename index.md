@@ -5,9 +5,17 @@ tagline: 子曰：君子惠而不费，劳而不怨，欲而不贪，泰而不�
 ---
 {% include JB/setup %}
 
-
+###最新
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
+</ul>
+###分类
+<ul>
+
+    {% for category in site.categories %}
+    <li><a href="/categories/{{ category | first }}/" title="看你妹">{{ category | first }} {{ category | last | size }}</a>
+    </li>
+    {% endfor %}
 </ul>
