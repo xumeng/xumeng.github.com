@@ -29,10 +29,3 @@ description: "诗人程序员"
 对我有兴趣请联系我： <a href="mailto:gosu@foxmail.com">mail</a> to me, or <a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=a2b313f2d1c5fac12e98448e4660e4e0ca7512bb7ad01160"><img border="0"  src="/assets/qq.gif" alt="Q me" title="Q me"></a>
 
 
-{% highlight java %}
-public class HelloWorld {
-    public static void main(String args[]) {
-      System.out.println("Hello World!");
-    }
-}
-{% endhighlight %}
