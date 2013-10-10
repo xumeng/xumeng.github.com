@@ -24,7 +24,7 @@ description: "诗人程序员"
 程序猿一只，涉及ios,java,android,flex,擅长web开发、移动开发。   
 爱好各种编程，不折腾不舒服斯基。    
 喜欢Open Source，喜欢苹果,linux。   
-讨厌微博，讨厌SNS。   
+讨厌微博，讨厌SNSSSS。   
 ---
 对我有兴趣请联系我： <a href="mailto:gosu@foxmail.com">mail</a> to me, or <a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=a2b313f2d1c5fac12e98448e4660e4e0ca7512bb7ad01160"><img border="0"  src="/assets/qq.gif" alt="Q me" title="Q me"></a>
 
