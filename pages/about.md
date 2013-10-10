@@ -13,17 +13,17 @@ description: "诗人程序员"
  	虽无悬梁凿壁之勇，盖因惧房东无德；虽无囊萤映雪之聪，盖因身处南国都市。   
  	回首余已二十有三，事业未成。幸得佳人伴我孤灯零影之日，感极涕零！
 
-为自述所作
-* 车水马龙非我意，远山近水乃吾心。
-* 每见腾空尾气起，遥思故乡炊烟升。
-* 披星带月二三年，吾以汗泪付青春。
-* 幸得佳人长相伴，早日衣锦立功勋。
+### 为自述所作
+*	车水马龙非我意，远山近水乃吾心。
+*	每见腾空尾气起，遥思故乡炊烟升。
+*	披星带月二三年，吾以汗泪付青春。
+*	幸得佳人长相伴，早日衣锦立功勋。
 
 ---
 
-软件攻城狮一枚，主攻java,android,flex,擅长web开发、移动开发。   
-爱好攻各种城，不折腾不舒服斯基。    
-喜欢Open Source，喜欢linux。   
+程序猿一只，涉及ios,java,android,flex,擅长web开发、移动开发。   
+爱好各种编程，不折腾不舒服斯基。    
+喜欢Open Source，喜欢苹果,linux。   
 讨厌微博，讨厌SNS。   
 ---
-if u feel i'm not bad,u can <a href="mailto:gosu@foxmail.com">mail</a> to me, or <a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=a2b313f2d1c5fac12e98448e4660e4e0ca7512bb7ad01160"><img border="0"  src="/assets/qq.gif" alt="Q me" title="Q me"></a>
+对我有兴趣请联系我： <a href="mailto:gosu@foxmail.com">mail</a> to me, or <a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=a2b313f2d1c5fac12e98448e4660e4e0ca7512bb7ad01160"><img border="0"  src="/assets/qq.gif" alt="Q me" title="Q me"></a>
