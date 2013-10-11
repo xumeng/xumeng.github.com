@@ -13,7 +13,7 @@ html, body {
 /* line 18, ../_sass/_base.scss */
 body {
   color: #000000;
-  text-shadow: 1px 1px 1px #000;
+  /*text-shadow: px 1px 1px #000;*/
   height: 100%;
   font-family: 'Consolas', sans-serif;
   font-size: 16px;
@@ -402,4 +402,25 @@ div.sidebar section img.icon {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+}
+
+/*amon add*/
+
+
+/* entry title */
+.postTitleClass {
+  font-size: 2.5em;
+  margin: 4px 0 20px 0;
+  padding-bottom: 5px;
+  font-weight: 600;
+  color: #7b7a79;
+  text-shadow: 0 1px 0 #fff;
+  border-bottom:4px solid #e0e0e0;
+}
+
+.subTitleClass {
+  margin-left: 1000px;
+  font-size: 0.5em;
+  padding-bottom: 30px;
+  color: #A9A9A6;
 }

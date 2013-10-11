@@ -8,7 +8,11 @@ tagline: 子曰：君子惠而不费，劳而不怨，欲而不贪，泰而不�
 ###最新
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+
+    <li><h2 class="postTitleClass"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2></li>
+     <span class="subTitleClass">日期:{{ post.date | date_to_string }}</span><br>
+    {{ post.content | truncate: 257 }}
+     <p> <a href="{{ post.url }}/#more" class="more-link"><span class="readmore">阅读全文 &raquo; </span></a></p>
   {% endfor %}
 </ul>
 ###分类
@@ -19,50 +23,4 @@ tagline: 子曰：君子惠而不费，劳而不怨，欲而不贪，泰而不�
     </li>
     {% endfor %}
 </ul>
-*******
-<div id="post-pagination" class="pagination">
-  {% if paginator.previous_page %}
-    <p class="previous">
-      {% if paginator.previous_page == 1 %}
-        <a href="/">Previous</a>
-      {% else %}
-        <a href="{{ paginator.previous_page_path }}">Previous</a>
-      {% endif %}
-    </p>
-  {% else %}
-    <p class="previous disabled">
-      <span>Previous</span>
-    </p>
-  {% endif %}
 
-  <ul class="pages">
-    <li class="page">
-      {% if paginator.page == 1 %}
-        <span class="current-page">1</span>
-      {% else %}
-        <a href="/">1</a>
-      {% endif %}
-    </li>
-
-    {% for count in (2..paginator.total_pages) %}
-      <li class="page">
-        {% if count == paginator.page %}
-          <span class="current-page">{{ count }}</span>
-        {% else %}
-          <a href="/page{{ count }}">{{ count }}</a>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-
-  {% if paginator.next_page %}
-    <p class="next">
-      <a href="{{ paginator.next_page_path }}">Next</a>
-    </p>
-  {% else %}
-    <p class="next disabled">
-      <span>Next</span>
-    </p>
-  {% endif %}
-
-</div>
