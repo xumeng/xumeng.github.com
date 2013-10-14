@@ -1,0 +1,44 @@
+---
+layout: default
+title: Contact
+comment: true
+---
+
+<div class="article">
+    <h3 class="title">关于我</h3>
+    <div class="about">
+
+        <div class="about-text">
+            <p>{{ site.author.simpleIntro }}</p>
+            {{ site.author.detailIntro }}
+
+        </div>
+        <div class="about-image">
+
+            <img src="https://mp.weixin.qq.com/cgi-bin/getqrcode?fakeid=3087049711&token=274722959&style=1" /><br>
+            扫一扫关注公众号：徐不猛的程序之道，或者搜索"xubumeng".<br>
+        </div>
+    </div>
+    <div class="fn-clear"></div>
+    <div class="social">
+        {% for link in site.follow %}
+        <a href="{{ link.url }}" target="_blank"><i class="{{ link.class }}"></i></a>
+        {% endfor %}
+    </div>
+    <div class="fn-clear"></div>
+    <div class="contact">
+        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+        <a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=a2b313f2d1c5fac12e98448e4660e4e0ca7512bb7ad01160"><img border="0"  src="/images/qq.gif" alt="Q me" title="Q me"></a><br>
+        
+       
+    </div>
+    <div class="comment">
+        {% if site.disqus.config %}
+        <div id="disqus_thread"></div>
+        {% else %}
+            {% if site.duoshuo.config %}
+            <div class="ds-thread"></div>
+            {% endif %}
+        {% endif %}
+    </div>
+</div>

@@ -5,7 +5,7 @@ description: ""
 category: life
 tags: [blog]
 ---
-{% include JB/setup %}
+<!-- {% include JB/setup %} -->
 
 
 好久没写博客了，因为太忙。

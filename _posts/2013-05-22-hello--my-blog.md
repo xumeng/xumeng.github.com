@@ -5,7 +5,7 @@ description: ""
 categories: [blog]
 tags: [github, jekyll, markdown, blog]
 ---
-{% include JB/setup %}
+
 
 
 
