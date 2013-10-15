@@ -1,15 +1,15 @@
 markdown: redcarpet
 pygments: true
-paginate: 8
+paginate: 10
 
 safe:  false
 
 #Site config
 title: 徐不猛的程序之道
 subtitle: 子曰：君子惠而不费，劳而不怨，欲而不贪，泰而不骄，威而不猛！
-description: Just another Jekyll theme design and code by zhanxin.info.
-keywords: Jekyll Theme
-url: http://localhost:4000
+description: 徐不猛的程序之道，你懂的。
+keywords: 徐不猛
+url: http://www.xubumeng.com
 feed: /atom.xml
 favicon: /images/favicon.ico
 
@@ -31,7 +31,7 @@ author:
     name: Amon
     email: gosuxm@gmail.com
     imageLink: https://2.gravatar.com/avatar/615724a207b98b15161ba22985a512df?d=https%3A%2F%2Fidenticons.github.com%2F75fb4616b7c8511387f87dad13b34da4.png&s=440
-    simpleIntro:  Amon者,庚午年生人，楚弦人士，自幼贪玩好动喜折腾，仰天资一二故成绩甚好。  然至高中之时，误入Computer之迷途，自此一发不可收拾矣。虽金榜无名，却未尝有悔意。终学于此。   待学成出山，就业南国一隅，纵横三余载，愈觉岁月匆匆。每日书影以学，仍感光阴之不足。 虽无悬梁凿壁之勇，盖因惧房东无德；虽无囊萤映雪之聪，盖因身处南国都市。   回首余已二十有三，事业未成。幸得佳人伴我孤灯零影之日，感极涕零！
+    simpleIntro:  <img src="/images/qrcode.jpg" alt="想要看天气、看笑话、看妹子，找各种应用工具，就扫一扫关注公众号：徐不猛的程序之道，或者搜索"xubumeng"." width="100px" height="100px" /><br>Amon者,庚午年生人，楚弦人士，自幼贪玩好动喜折腾，仰天资一二故成绩甚好。  然至高中之时，误入Computer之迷途，自此一发不可收拾矣。虽金榜无名，却未尝有悔意。终学于此。   待学成出山，就业南国一隅，纵横三余载，愈觉岁月匆匆。每日书影以学，仍感光阴之不足。 虽无悬梁凿壁之勇，盖因惧房东无德；虽无囊萤映雪之聪，盖因身处南国都市。   回首余已二十有三，事业未成。幸得佳人伴我孤灯零影之日，感极涕零！
     detailIntro:
       <p>
       车水马龙非我意，远山近水乃吾心。<br>
@@ -57,11 +57,13 @@ customLinks:
   - item:
     - text: Jekyll
       url: http://jekyllrb.com
-    message: Friends
-  - item:
     - text: Github
-      url: http://github.com/
-    message: 其他链接
+      url: http://github.com
+    message: Blog
+  - item:
+    - text: LeeAmo
+      url: http://leeamo.com
+    message: Friends
 
 #googleAnaly, your id link UA-12345678-X
 googleAnaly:
