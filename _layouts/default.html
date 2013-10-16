@@ -46,7 +46,11 @@
                           {% assign active = 'nav-item-active' %}
                         {% endif %}
                         <li class="nav-item {{ active }}">
-                            <a href="{{ site.url }}{{ link.url }}">
+                            {% if link.text == "严重声明(Warning)" %}
+                                <a style="color:red" href="{{ site.url }}{{ link.url }}">
+                            {% else %}
+                                <a href="{{ site.url }}{{ link.url }}">
+                            {% endif%}
                                 {{ link.text }}
                             </a>
                             {{ indicator }}
