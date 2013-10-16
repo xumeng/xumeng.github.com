@@ -1,0 +1,49 @@
+---
+layout: default
+title: Warning!!!
+comment: true
+---
+
+<div class="article">
+    <h3 class="title">关于本网站的一些声明</h3>
+    <div class="about">
+
+        <div >
+            <p>
+                如果您浏览本网站时，<br>
+                发现样式不正常或者页面显示不正常的问题，<br>
+                <span style="font-size:30px;color:red">请自觉使用Chrome或IE9以上内核的主流浏览器，<br>
+                我不是前端人员，更不会去兼容该死的IE或非主流浏览器，谢谢！</span><br><br>
+                本网站测试环境：<br>
+                Mac OS X10.8.5(1440*900)+Chrome/Safiri,<br>
+                及简单的Win7(1366*768)+Chrome/IE10测试。<br>
+
+            </p>
+           
+
+        </div>
+        
+    </div>
+    <div class="fn-clear"></div>
+    <div class="social">
+        {% for link in site.follow %}
+        <a href="{{ link.url }}" target="_blank"><i class="{{ link.class }}"></i></a>
+        {% endfor %}
+    </div>
+    <div class="fn-clear"></div>
+    <div class="contact">
+        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+        <a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=a2b313f2d1c5fac12e98448e4660e4e0ca7512bb7ad01160"><img border="0"  src="/images/qq.gif" alt="Q me" title="Q me"></a><br>
+        
+       
+    </div>
+    <div class="comment">
+        {% if site.disqus.config %}
+        <div id="disqus_thread"></div>
+        {% else %}
+            {% if site.duoshuo.config %}
+            <div class="ds-thread"></div>
+            {% endif %}
+        {% endif %}
+    </div>
+</div>

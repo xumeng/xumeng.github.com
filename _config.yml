@@ -9,6 +9,7 @@ title: 徐不猛的程序之道
 subtitle: 子曰：君子惠而不费，劳而不怨，欲而不贪，泰而不骄，威而不猛！
 description: 徐不猛的程序之道，你懂的。
 keywords: 徐不猛
+#url: http://localhost:4000
 url: http://www.xubumeng.com
 feed: /atom.xml
 favicon: /images/favicon.ico
@@ -25,6 +26,8 @@ nav:
     url: /contact.html
   - text: Links
     url: /links.html
+  - text: 严重声明(Warning)
+    url: /warning.html
 
 #Author config
 author:
