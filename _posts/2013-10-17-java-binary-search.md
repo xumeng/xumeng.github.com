@@ -6,7 +6,55 @@ category: 算法
 tags: [java 算法]
 ---
 
-*java二分法示例*
+
+  最近遇到一个问题：
+
+  
+  须要在20万号段数据中查找对应的地市，并且这个过程是发生在遍历几百万数据中的。也就是说正常情况下须要执行20万*几百万次。
+
+
+这个时间太久了，且因为号段是长数字，执行起来速度超慢。
+
+
+后来经过同事提醒用二分法，顿感算法的牛逼之处。
+####二分法的原理就是：把有序的数据分为2段，通过比较得到数据在哪段，然后再把这段的数据分为2段，这样就省去了很多不必要的遍历。
+下面两个例子就是二分法的示例，一个是递归，一个是循环。
+
+
+*java二分法循环示例*
+{% highlight java%}
+package cn.sunzn.dichotomy;
+
+public class DichotomySearch {
+   public static void main(String[] args) {
+       int[] arr = new int[] { 12, 23, 34, 45, 56, 67, 77, 89, 90 };
+       System.out.println(search(arr, 12));
+       System.out.println(search(arr, 45));
+       System.out.println(search(arr, 67));
+       System.out.println(search(arr, 89));
+       System.out.println(search(arr, 99));
+   }
+
+   public static int search(int[] arr, int key) {
+       int start = 0;
+       int end = arr.length - 1;
+       while (start <= end) {
+           int middle = (start + end) / 2;
+           if (key < arr[middle]) {
+               end = middle - 1;
+           } else if (key > arr[middle]) {
+               start = middle + 1;
+           } else {
+               return middle;
+           }
+       }
+       return -1;
+   }
+}
+{% endhighlight %}
+
+
+*java二分法递归示例*
 {% highlight java %}
 /**
  * 二分法查找，必须对已经排好序的序列进行查找，假设现在有一个递增序列，取中间位置的数及序号midIndex=(beginIndex+endIndex)/2，
@@ -73,3 +121,8 @@ public class BinarySearchTest {
 
 
 {% endhighlight %}
+
+
+
+
+后记：算法无穷妙，看来得好好学习下算法。
