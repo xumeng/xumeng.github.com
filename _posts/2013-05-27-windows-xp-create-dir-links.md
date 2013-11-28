@@ -5,7 +5,7 @@ description: "junction"
 category: tools
 tags: [windows, xp, junction]
 ---
-<!-- {% include JB/setup %} -->
+
 
 ###### windows xp下创建符号链接
   今天给女友的电脑设置dropbox同步的时候遇到一个问题，就是她想同步指定的文件夹，   

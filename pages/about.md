@@ -3,7 +3,7 @@ layout: page
 title: "About"
 description: "诗人程序员"
 ---
-{% include JB/setup %}
+
 
 
 ### 自述：   
