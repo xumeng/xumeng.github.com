@@ -28,5 +28,5 @@ tags: []
 over
 
 此为初稿，未做修订。
-写这篇文章时，我在单曲这个：
-[an example](http://www.xiami.com/play?ids=/song/playlist/id/2080579/object_name/default/object_id/0#open "讃歌～種山が原へ")
+写这篇文章时，我在单曲这个，我想让你看的时候也听这个，点击播放：
+[讃歌～種山が原へ](http://www.xiami.com/play?ids=/song/playlist/id/2080579/object_name/default/object_id/0#open "讃歌～種山が原へ")
