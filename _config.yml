@@ -27,7 +27,7 @@ nav:
     url: /contact.html
   - text: Links
     url: /links.html
-  - text: 严重声明(Warning)
+  - text: 声明(Warning)
     url: /warning.html
 
 #Author config
@@ -35,7 +35,7 @@ author:
     name: Amon
     email: gosuxm@gmail.com
     imageLink: https://2.gravatar.com/avatar/615724a207b98b15161ba22985a512df?d=https%3A%2F%2Fidenticons.github.com%2F75fb4616b7c8511387f87dad13b34da4.png&s=440
-    simpleIntro:  <img src="/images/qrcode.jpg" alt="想要看天气、看笑话、看妹子，找各种应用工具，就扫一扫关注公众号：徐不猛的程序之道，或者搜索"xubumeng"." width="100px" height="100px" /><br>Amon者,庚午年生人，楚弦人士，自幼贪玩好动喜折腾，仰天资一二故成绩甚好。  然至高中之时，误入Computer之迷途，自此一发不可收拾矣。虽金榜无名，却未尝有悔意。终学于此。   待学成出山，就业南国一隅，纵横三余载，愈觉岁月匆匆。每日书影以学，仍感光阴之不足。 虽无悬梁凿壁之勇，盖因惧房东无德；虽无囊萤映雪之聪，盖因身处南国都市。   回首余已二十有三，事业未成。幸得佳人伴我孤灯零影之日，感极涕零！
+    simpleIntro:  <img src="/images/qrcode.jpg" alt="想要看天气、看笑话、看妹子，找各种应用工具，就扫一扫关注公众号：徐不猛的程序之道，或者搜索"xubumeng"." width="100px" height="100px" /><br>Amon者,庚午年生人，楚弦人士，自幼贪玩好动喜折腾，仰天资一二故成绩甚好。  然至高中之时，误入Computer之迷途，自此一发不可收拾矣。虽金榜无名，却未尝有悔意。终学于此。   待学成出山，就业南国一隅，纵横四余载，愈觉岁月匆匆。每日书影以学，仍感光阴之不足。 虽无悬梁凿壁之勇，盖因惧房东无德；虽无囊萤映雪之聪，盖因身处南国都市。   回首余已二十有四，事业未成。幸得佳人伴我孤灯零影之日，感极涕零！
     detailIntro:
       <p>
       车水马龙非我意，远山近水乃吾心。<br>
@@ -43,10 +43,7 @@ author:
       披星带月二三年，吾以汗泪付青春。<br>
       幸得佳人长相伴，早日衣锦立功勋。<br><br>
       <h3>写在最后：</h3><br>
-      程序猿一只，涉及ios,java,android,flex,擅长web开发、移动开发。<br>
-      爱好各种编程，不折腾不舒服斯基.<br>
-      喜欢Open Source，喜欢苹果,linux。<br>
-      讨厌作恶的东西。
+      程序猿一只，涉及iOS,Android,Java,Flex,Python,C,C++,擅长移动开发、Web开发，服务器开发。<br>
       </p>
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
